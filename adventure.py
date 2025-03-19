@@ -1,20 +1,28 @@
 import time
 import random
+import gettext
 from menu import main_menu
 from ascii import ascii_boat, ascii_candle, ascii_rope, ascii_potato 
 from printsleep import print_fast, print_long, print_med
 from events import death_check, death_messages, money_get, input_error
 
+localedir = './locales'
+appname = 'pythonAdventure'
+
+translate = gettext.translation(appname, localedir, fallback=False, languages=['en'])
+
+translate.install()
+
 deaths = 0
 is_dead = False
 deaths_seen = []
 
-bag = ["batata"]
+bag = [_("batata")]
 money = 0
 potato_in_bag = True
 
 shop = ""
-store = ["Barco? ", "Corda? ", "Vela? "]
+store = [_("Barco? "), _("Corda? "), _("Vela? ")]
 shop_visits = 0
 shop_visits_potato = False
 
