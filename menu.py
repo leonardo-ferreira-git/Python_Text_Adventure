@@ -1,7 +1,13 @@
 import time
-from adventure import translate
+import gettext
 from printsleep import *
 
+localedir = './locales'
+appname = 'pythonAdventure'
+
+translate = gettext.translation(appname, localedir, fallback=True, languages=['en'])
+
+translate.install()
 
 def main_menu():
     """Starting menu of the game where players can choose to start the game, go to options, credits or quit it.
@@ -12,7 +18,7 @@ def main_menu():
         print("\n◸                    ◹")
         print(">~{ O JOGO DE TEXTO }~<")
         print("◺                    ◿\n")
-        print("▷ Jogar")
+        print(_("▷ Jogar"))
         print("▷ Opções")
         print("▷ Créditos")
         print("▷ Sair")

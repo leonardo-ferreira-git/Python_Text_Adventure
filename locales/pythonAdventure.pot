@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-18 22:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: adventure.py:25
+msgid "Barco? "
+msgstr ""
+
+#: adventure.py:25
+msgid "Corda? "
+msgstr ""
+
+#: adventure.py:25
+msgid "Vela? "
+msgstr ""
+
+#: adventure.py:58
+msgid ""
+"\n"
+"> Você entra na loja e o vendedor começa a fungar, como se estivesse "
+"cheirando algo."
+msgstr ""
+
+#: adventure.py:59
+msgid ""
+"- Isso é... Tem que ser... Não tem como confundir! Você conseguiu uma batata "
+"daquele espantalho! Elas são tão..."
+msgstr ""
+
+#: adventure.py:60
+msgid "- ...preciosas."
+msgstr ""
+
+#: adventure.py:61
+msgid ""
+"- Hm esse cheiro de batata me deixou com fome... Eu não vou conseguir "
+"trabalhar com o desejo da batata..."
+msgstr ""
+
+#: adventure.py:62
+msgid ""
+"- Ei, o que acha de você me vender essa batata? Vamos lá, eu te vendi o "
+"barco, lembra? Eu pago bem por ela, é sério! E aí?"
+msgstr ""
+
+#: adventure.py:64
+msgid ""
+"\n"
+"] sim | não ["
+msgstr ""
+
+#: adventure.py:67
+msgid "sim"
+msgstr ""
+
+#: adventure.py:71
+msgid ""
+"\n"
+"> Você está prestes a colocar a batata no balcão mas não encontra forças "
+"para isso. E como se a batata não quisesse se separar de você..."
+msgstr ""
+
+#: adventure.py:72
+msgid "> Você desiste e guarda a batata na mochila."
+msgstr ""
+
+#: adventure.py:73
+msgid "> O vendedor te olha furioso."
+msgstr ""
+
+#: adventure.py:74
+msgid "> E se joga em cima de você."
+msgstr ""
+
+#: adventure.py:85
+msgid "não"
+msgstr ""
+
+#: adventure.py:90
+msgid ""
+"\n"
+"- Bom a batata é sua, então você decide. Mas saiba que perdeu uma oferta "
+"milionária!"
+msgstr ""
+
+#: adventure.py:91
+msgid ""
+"- O problema é que agora é que fiquei com fome e nem é horário de almoço "
+"ainda..."
+msgstr ""
+
+#: adventure.py:92
+msgid ""
+"- Que tal assim: eu te dou um dinheiro como compensação por não te atender "
+"agora, você sai daqui e eu faço meu lanchinho!"
+msgstr ""
+
+#: adventure.py:93
+msgid "- Sim, eu sei que eu sou generoso.\n"
+msgstr ""
+
+#: adventure.py:97
+msgid ""
+"\n"
+"> Você sai da loja para o vendedor comer e confuso quanto ao poder da batata"
+msgstr ""
+
+#: adventure.py:104
+msgid ""
+"\n"
+"- Bom me desculpe, mas você já comprou tudo que eu tinha! Volte aqui quando "
+"eu tiver novos produtos."
+msgstr ""
+
+#: adventure.py:109
+msgid ""
+"\n"
+"- Ora vejam só um freguês novo! Faz um bom tempo que não recebo dinheiro "
+"vindo de outras bandas!"
+msgstr ""
+
+#: adventure.py:110
+#, python-brace-format
+msgid ""
+"- {store[0]}{store[1]}{store[2]} É tudo seu, isso se você tiver o dinheiro "
+"suficiente!"
+msgstr ""
+
+#: adventure.py:111
+msgid "- Então, o que vai ser? "
+msgstr ""
+
+#: adventure.py:113
+msgid ""
+"\n"
+"] barco | vela | corda | sair ["
+msgstr ""
+
+#: adventure.py:119
+msgid ""
+"\n"
+"- Olha só é o cara batata! Já sabe:"
+msgstr ""
+
+#: adventure.py:123
+msgid ""
+"\n"
+"- Você de novo? Bom, já sabe:"
+msgstr ""
+
+#: adventure.py:126
+#, python-brace-format
+msgid ""
+"- {store[0]}{store[1]}{store[2]} Tudo pode ser seu com um pouco de dinheiro!"
+msgstr ""
