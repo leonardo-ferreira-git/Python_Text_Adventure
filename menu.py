@@ -1,4 +1,5 @@
 import time
+from adventure import translate
 from printsleep import *
 
 

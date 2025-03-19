@@ -9,7 +9,7 @@ from events import death_check, death_messages, money_get, input_error
 localedir = './locales'
 appname = 'pythonAdventure'
 
-translate = gettext.translation(appname, localedir, fallback=False, languages=['en'])
+translate = gettext.translation(appname, localedir, fallback=True, languages=['en'])
 
 translate.install()
 
@@ -17,7 +17,7 @@ deaths = 0
 is_dead = False
 deaths_seen = []
 
-bag = [_("batata")]
+bag = ["batata"]
 money = 0
 potato_in_bag = True
 
@@ -55,23 +55,23 @@ def path_2_shop():
 
 
     if potato_in_bag and not shop_visits_potato:        # Triggers when it's the first time visiting the shop with the potato in bag 
-        print_med("\n> Você entra na loja e o vendedor começa a fungar, como se estivesse cheirando algo.")
-        print_long("- Isso é... Tem que ser... Não tem como confundir! Você conseguiu uma batata daquele espantalho! Elas são tão...")
-        print_long("- ...preciosas.")
-        print_long("- Hm esse cheiro de batata me deixou com fome... Eu não vou conseguir trabalhar com o desejo da batata...")
-        print_long("- Ei, o que acha de você me vender essa batata? Vamos lá, eu te vendi o barco, lembra? Eu pago bem por ela, é sério! E aí?")
+        print_med(_("\n> Você entra na loja e o vendedor começa a fungar, como se estivesse cheirando algo."))
+        print_long(_("- Isso é... Tem que ser... Não tem como confundir! Você conseguiu uma batata daquele espantalho! Elas são tão..."))
+        print_long(_("- ...preciosas."))
+        print_long(_("- Hm esse cheiro de batata me deixou com fome... Eu não vou conseguir trabalhar com o desejo da batata..."))
+        print_long(_("- Ei, o que acha de você me vender essa batata? Vamos lá, eu te vendi o barco, lembra? Eu pago bem por ela, é sério! E aí?"))
 
-        print("\n] sim | não [")
+        print(_("\n] sim | não ["))
         potato_bargain = input(">>> ").lower()
 
-        if potato_bargain == "sim":         # Updates shop_visits_potato so not to trigger the scene again
+        if potato_bargain == _("sim"):         # Updates shop_visits_potato so not to trigger the scene again
             shop_visits_potato = True
 
             time.sleep(1)
-            print_long("\n> Você está prestes a colocar a batata no balcão mas não encontra forças para isso. E como se a batata não quisesse se separar de você...")
-            print_med("> Você desiste e guarda a batata na mochila.")
-            print_long("> O vendedor te olha furioso.")
-            print_med("> E se joga em cima de você.")
+            print_long(_("\n> Você está prestes a colocar a batata no balcão mas não encontra forças para isso. E como se a batata não quisesse se separar de você..."))
+            print_med(_("> Você desiste e guarda a batata na mochila."))
+            print_long(_("> O vendedor te olha furioso."))
+            print_med(_("> E se joga em cima de você."))
 
             # Ending 5
             is_dead = True
@@ -82,48 +82,48 @@ def path_2_shop():
             # Exits the funcion dead, goes to the death check.
             return
 
-        elif potato_bargain == "não" or "nao":      # Updates shop_visits_potato so not to trigger the scene again and gives 1 money
+        elif potato_bargain == _("não") or "nao":      # Updates shop_visits_potato so not to trigger the scene again and gives 1 money
             shop_visits_potato = True
             money += 1
 
             time.sleep(1)
-            print_med("\n- Bom a batata é sua, então você decide. Mas saiba que perdeu uma oferta milionária!")
-            print_med("- O problema é que agora é que fiquei com fome e nem é horário de almoço ainda...")
-            print_med("- Que tal assim: eu te dou um dinheiro como compensação por não te atender agora, você sai daqui e eu faço meu lanchinho!")
-            print_med("- Sim, eu sei que eu sou generoso.\n")
+            print_med(_("\n- Bom a batata é sua, então você decide. Mas saiba que perdeu uma oferta milionária!"))
+            print_med(_("- O problema é que agora é que fiquei com fome e nem é horário de almoço ainda..."))
+            print_med(_("- Que tal assim: eu te dou um dinheiro como compensação por não te atender agora, você sai daqui e eu faço meu lanchinho!"))
+            print_med(_("- Sim, eu sei que eu sou generoso.\n"))
 
             money_get(money)
 
-            print_med("\n> Você sai da loja para o vendedor comer e confuso quanto ao poder da batata")
+            print_med(_("\n> Você sai da loja para o vendedor comer e confuso quanto ao poder da batata"))
 
 
             # Exits the function.
             return
     
     if store[0] == "" and store[1] == "" and store[2] == "":        # When player buys all of the itens
-        print_med("\n- Bom me desculpe, mas você já comprou tudo que eu tinha! Volte aqui quando eu tiver novos produtos.")
+        print_med(_("\n- Bom me desculpe, mas você já comprou tudo que eu tinha! Volte aqui quando eu tiver novos produtos."))
 
     elif shop_visits == 0:      # When player visits the shop for the first time, updates shop_visits so not to trigger the scene again
         shop_visits += 1
 
-        print_med("\n- Ora vejam só um freguês novo! Faz um bom tempo que não recebo dinheiro vindo de outras bandas!")
-        print_med(f"- {store[0]}{store[1]}{store[2]} É tudo seu, isso se você tiver o dinheiro suficiente!")
-        print_fast("- Então, o que vai ser? ")
+        print_med(_("\n- Ora vejam só um freguês novo! Faz um bom tempo que não recebo dinheiro vindo de outras bandas!"))
+        print_med(_(f"- {store[0]}{store[1]}{store[2]} É tudo seu, isso se você tiver o dinheiro suficiente!"))
+        print_fast(_("- Então, o que vai ser? "))
 
-        print("\n] barco | vela | corda | sair [")
+        print(_("\n] barco | vela | corda | sair ["))
         shop = input(">>> ").lower()
 
     else:
         if shop_visits_potato:      # If the player enters the shop with the potato (after having that first special scene)
             time.sleep(1)
-            print("\n- Olha só é o cara batata! Já sabe:")
+            print(_("\n- Olha só é o cara batata! Já sabe:"))
 
         else:       # If the player enters the shop again but without the potato
             time.sleep(1)
-            print("\n- Você de novo? Bom, já sabe:")
+            print(_("\n- Você de novo? Bom, já sabe:"))
 
         # Default text for vending. When some item is bought, its name in the list is changed to a blank space, removing it from the text.
-        print(f"- {store[0]}{store[1]}{store[2]} Tudo pode ser seu com um pouco de dinheiro!")
+        print(_(f"- {store[0]}{store[1]}{store[2]} Tudo pode ser seu com um pouco de dinheiro!"))
         print_fast("- Então, já se decidiu? ")
 
         print("\n] barco | vela | corda | sair [")

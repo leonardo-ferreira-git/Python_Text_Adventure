@@ -1,5 +1,6 @@
 import time
 import random
+from adventure import translate
 from menu import *
 from ascii import ascii_money
 
