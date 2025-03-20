@@ -102,188 +102,212 @@ msgstr "\n"
 #: adventure.py:105
 msgid "\n"
 "- Bom me desculpe, mas você já comprou tudo que eu tinha! Volte aqui quando eu tiver novos produtos."
-msgstr ""
+msgstr "\n"
+"- Well, I'm sorry, but you've bought all I had! Come back when I get new products available."
 
 #: adventure.py:110
 msgid "\n"
 "- Ora vejam só um freguês novo! Faz um bom tempo que não recebo dinheiro vindo de outras bandas!"
-msgstr ""
+msgstr "\n"
+"- Oh, look at that! A new costumer! It's been a long time since I received money from foreign places!"
 
 #: adventure.py:111
 msgid "- {store[0]}{store[1]}{store[2]} É tudo seu, isso se você tiver o dinheiro suficiente!"
-msgstr ""
+msgstr "- {store[0]}{store[1]}{store[2]} It's all yours, if you have enough money!"
 
 #: adventure.py:112
 msgid "- Então, o que vai ser? "
-msgstr ""
+msgstr "-So, what will it be?"
 
 #: adventure.py:114 adventure.py:130
 msgid "\n"
 "] barco | vela | corda | sair ["
-msgstr ""
+msgstr "\n"
+"] boat | candle | rope | exit ["
 
 #: adventure.py:120
 msgid "\n"
 "- Olha só é o cara batata! Já sabe:"
-msgstr ""
+msgstr "\n"
+"- Look, it's potato man! You know what to do:"
 
 #: adventure.py:124
 msgid "\n"
 "- Você de novo? Bom, já sabe:"
-msgstr ""
+msgstr "- You again? Weel, you know what to do:"
 
 #: adventure.py:127
 msgid "- {store[0]}{store[1]}{store[2]} Tudo pode ser seu com um pouco de dinheiro!"
-msgstr ""
+msgstr "- {store[0]}{store[1]}{store[2]} They can all be yours with a little money!"
 
 #: adventure.py:128
 msgid "- Então, já se decidiu? "
-msgstr ""
+msgstr "- So, have you decided?"
 
 #: adventure.py:133 adventure.py:146 adventure.py:564
 msgid "barco"
-msgstr ""
+msgstr "boat"
 
 #: adventure.py:135
 msgid "\n"
 "- Mas você não tem nenhum dinheiro! Some daqui!"
-msgstr ""
+msgstr "\n"
+"- But you have no cash! Get out!"
 
 #: adventure.py:141
 msgid "\n"
 "- Pois bem aqui está seu barco, não me pergunte como você vai guardar isso.\n"
 ""
-msgstr ""
+msgstr "\n"
+"- All right, here's your boat, don't ask me how will you carry it.\n"
+""
 
 #: adventure.py:144
 msgid "\n"
 "{ BARCO ADQUIRIDO }"
-msgstr ""
+msgstr "\n"
+"{BOAT ACQUIRED}"
 
 #: adventure.py:150
 msgid "\n"
 "- Você por acaso vê algum outro barco aqui na loja? Não? Pois é..."
-msgstr ""
+msgstr "\n"
+"- Have you, by any chance, seen any other boat here at the store? No? That's what I thought..."
 
 #: adventure.py:152 adventure.py:165
 msgid "corda"
-msgstr ""
+msgstr "rope"
 
 #: adventure.py:154
 msgid "\n"
 "- Eu vou é te amarrar com a corda se você vier aqui sem dinheiro de novo!"
-msgstr ""
+msgstr "\n"
+"- I will tie you with the rope if tou come here without money again!"
 
 #: adventure.py:160
 msgid "\n"
 "- Uma corda para outra corda... ou algo assim, não sei.\n"
 ""
-msgstr ""
+msgstr "\n"
+"- A rope for another rope... Or something like that, I don't know."
 
 #: adventure.py:163
 msgid "\n"
 "{ CORDA ADQUIRIDA }"
-msgstr ""
+msgstr "\n"
+"{ ROPE ACQUIRED }"
 
 #: adventure.py:169
 msgid "\n"
 "- É você comprou a última corda, mas quem ficou num nó fui eu..."
-msgstr ""
+msgstr "\n"
+"- Yup, you've bought the last rope, but I'm the one hanging now..."
 
 #: adventure.py:171 adventure.py:184 adventure.py:629 adventure.py:655
 msgid "vela"
-msgstr ""
+msgstr "candle"
 
 #: adventure.py:173
 msgid "\n"
 "- A chama queimou seu dinheiro? Não? Então volta com um!"
-msgstr ""
+msgstr "\n"
+"- Did the flames burned your money? No? So bring it to me!"
 
 #: adventure.py:179
 msgid "\n"
 "- Aqui está! Ela ilumina muito bem! Mas acho que você já sabe disso...\n"
 ""
-msgstr ""
+msgstr "\n"
+"- Here it is! It ligths everything up very well! But I think you already know that...\n"
+""
 
 #: adventure.py:182
 msgid "\n"
 "{ VELA ADQUIRIDA }"
-msgstr ""
+msgstr "\n"
+"{CANDLE ACQUIRED}"
 
 #: adventure.py:188
 msgid "\n"
 "- Acha que vela dá em árvore? Se desse seria uma árvela. Mas não é..."
-msgstr ""
+msgstr "\n"
+"Do you think candles grow on trees? If it did it would be a trandle. But it isn't..."
 
 #: adventure.py:191
 msgid "\n"
 "- Já vai embora? Pois bem, fique a vontade."
-msgstr ""
+msgstr "\n"
+"- Are you leaving already? Well, go on."
 
 #: adventure.py:194
 msgid "\n"
 "- Acho que não temos isso no estoque, meu bom. Por que você não procura lá fora?"
-msgstr ""
+msgstr "\n"
+"- I don't think we have these on storage, my dear. Why don't you look for it outside?"
 
 #: adventure.py:200
 msgid "  ~ Há um rio perto da vila, você precisa de algo para desviar das piranhas."
-msgstr ""
+msgstr "  ~ There's a river near the village, you need something to avoid the piranhas."
 
 #: adventure.py:201
 msgid "  ~ A taverna é um bom lugar para conseguir dinheiro."
-msgstr ""
+msgstr "  ~ the tavern is a good place to get money."
 
 #: adventure.py:202
 msgid "  ~ A floresta é perigosa no escuro."
-msgstr ""
+msgstr "  ~ The forest is dangerous in the dark."
 
 #: adventure.py:203
 msgid "  ~ Menos que {farm_potatoes + 25}, eu diria."
-msgstr ""
+msgstr "  ~ Less than {farm_potatoes + 25}, I'd say."
 
 #: adventure.py:204
 msgid "  ~ Mais que {farm_potatoes - 25}, se tivesse que chutar."
-msgstr ""
+msgstr "  ~ More than {farm_potatoes - 25}, if I had to guess."
 
 #: adventure.py:205
 msgid "  ~ Há coisas muito poderosas nesse mundo."
-msgstr ""
+msgstr "  ~ There are very powerful thing in this world."
 
 #: adventure.py:206
 msgid "  ~ Todo lugar tem algo importante."
-msgstr ""
+msgstr "  ~ There is something important everywhere you go."
 
 #: adventure.py:207
 msgid "  ~ {name} não é um nome comum aqui."
-msgstr ""
+msgstr "  ~{name} is not a common name"
 
 #: adventure.py:208
 msgid "  ~ Dizem que alguém se perdeu na floresta e nunca mais voltou."
-msgstr ""
+msgstr "  ~ I heard a rumor that someone got lost in the forest and never returned."
 
 #: adventure.py:209
 msgid "  ~ ...o fim nunca é o fim nunca é o fim nunca é o fim nunca é o fim nunca é o fim nunca é..."
-msgstr ""
+msgstr "  ~ ...the end never is the end never is the end never is the end never is the end never is the end...."
 
 #: adventure.py:235
 msgid "\n"
 "> Você empurra a porta velha e revela uma sala escura com uma pessoa no centro."
-msgstr ""
+msgstr "\n"
+"> You push the old door and reveal a dark room with a person in its center."
 
 #: adventure.py:236
 msgid "\n"
 "- Hm seu rosto é novo por aqui... Qual seu nome?"
-msgstr ""
+msgstr "\n"
+"- Hm your face is new around here... What's yout name?"
 
 #: adventure.py:240
 msgid "\n"
 "- É MENTIRA!!!! Eu sei tudo sobre você, {name}! Inclusive o que vai acontecer agora!"
-msgstr ""
+msgstr "\n"
+"- LIAR !!!! I know everything about you, {name}! Even what's happening now!"
 
 #: adventure.py:253
 msgid "\n"
 "- Bom eu já sabia disso, só queria checar sua honestidade."
-msgstr ""
+msgstr "\n"
+"- Well, I knew it already, just making a honesty check."
 
 #: adventure.py:254
 msgid "- Aqui, pega um dinheiro como recompensa. Vai lá, pode pegar, você mereceu.\n"
