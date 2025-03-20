@@ -9,7 +9,7 @@ from events import death_check, death_messages, money_get, input_error
 localedir = './locales'
 appname = 'pythonAdventure'
 
-translate = gettext.translation(appname, localedir, fallback=False, languages=['en'])
+translate = gettext.translation(appname, localedir, fallback=True, languages=['en'])
 
 translate.install()
 _ = translate.gettext
