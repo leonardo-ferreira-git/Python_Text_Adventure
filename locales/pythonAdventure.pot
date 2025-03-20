@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 20:59-0300\n"
+"POT-Creation-Date: 2025-03-19 21:49-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,154 +17,886 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: adventure.py:25
+#: adventure.py:26 adventure.py:138
 msgid "Barco? "
 msgstr ""
 
-#: adventure.py:25
+#: adventure.py:26
 msgid "Corda? "
 msgstr ""
 
-#: adventure.py:25
+#: adventure.py:26
 msgid "Vela? "
 msgstr ""
 
-#: adventure.py:58
+#: adventure.py:59
 msgid ""
 "\n"
 "> Você entra na loja e o vendedor começa a fungar, como se estivesse "
 "cheirando algo."
 msgstr ""
 
-#: adventure.py:59
+#: adventure.py:60
 msgid ""
 "- Isso é... Tem que ser... Não tem como confundir! Você conseguiu uma batata "
 "daquele espantalho! Elas são tão..."
 msgstr ""
 
-#: adventure.py:60
+#: adventure.py:61
 msgid "- ...preciosas."
 msgstr ""
 
-#: adventure.py:61
+#: adventure.py:62
 msgid ""
 "- Hm esse cheiro de batata me deixou com fome... Eu não vou conseguir "
 "trabalhar com o desejo da batata..."
 msgstr ""
 
-#: adventure.py:62
+#: adventure.py:63
 msgid ""
 "- Ei, o que acha de você me vender essa batata? Vamos lá, eu te vendi o "
 "barco, lembra? Eu pago bem por ela, é sério! E aí?"
 msgstr ""
 
-#: adventure.py:64
+#: adventure.py:65 adventure.py:414
 msgid ""
 "\n"
 "] sim | não ["
 msgstr ""
 
-#: adventure.py:67
+#: adventure.py:68 adventure.py:422
 msgid "sim"
 msgstr ""
 
-#: adventure.py:71
+#: adventure.py:72
 msgid ""
 "\n"
 "> Você está prestes a colocar a batata no balcão mas não encontra forças "
 "para isso. E como se a batata não quisesse se separar de você..."
 msgstr ""
 
-#: adventure.py:72
+#: adventure.py:73
 msgid "> Você desiste e guarda a batata na mochila."
 msgstr ""
 
-#: adventure.py:73
+#: adventure.py:74
 msgid "> O vendedor te olha furioso."
 msgstr ""
 
-#: adventure.py:74
+#: adventure.py:75
 msgid "> E se joga em cima de você."
 msgstr ""
 
-#: adventure.py:85
+#: adventure.py:86 adventure.py:417
 msgid "não"
 msgstr ""
 
-#: adventure.py:90
+#: adventure.py:91
 msgid ""
 "\n"
 "- Bom a batata é sua, então você decide. Mas saiba que perdeu uma oferta "
 "milionária!"
 msgstr ""
 
-#: adventure.py:91
+#: adventure.py:92
 msgid ""
 "- O problema é que agora é que fiquei com fome e nem é horário de almoço "
 "ainda..."
 msgstr ""
 
-#: adventure.py:92
+#: adventure.py:93
 msgid ""
 "- Que tal assim: eu te dou um dinheiro como compensação por não te atender "
 "agora, você sai daqui e eu faço meu lanchinho!"
 msgstr ""
 
-#: adventure.py:93
+#: adventure.py:94
 msgid "- Sim, eu sei que eu sou generoso.\n"
 msgstr ""
 
-#: adventure.py:97
+#: adventure.py:98
 msgid ""
 "\n"
 "> Você sai da loja para o vendedor comer e confuso quanto ao poder da batata"
 msgstr ""
 
-#: adventure.py:104
+#: adventure.py:105
 msgid ""
 "\n"
 "- Bom me desculpe, mas você já comprou tudo que eu tinha! Volte aqui quando "
 "eu tiver novos produtos."
 msgstr ""
 
-#: adventure.py:109
+#: adventure.py:110
 msgid ""
 "\n"
 "- Ora vejam só um freguês novo! Faz um bom tempo que não recebo dinheiro "
 "vindo de outras bandas!"
 msgstr ""
 
-#: adventure.py:110
+#: adventure.py:111
 #, python-brace-format
 msgid ""
 "- {store[0]}{store[1]}{store[2]} É tudo seu, isso se você tiver o dinheiro "
 "suficiente!"
 msgstr ""
 
-#: adventure.py:111
+#: adventure.py:112
 msgid "- Então, o que vai ser? "
 msgstr ""
 
-#: adventure.py:113
+#: adventure.py:114 adventure.py:130
 msgid ""
 "\n"
 "] barco | vela | corda | sair ["
 msgstr ""
 
-#: adventure.py:119
+#: adventure.py:120
 msgid ""
 "\n"
 "- Olha só é o cara batata! Já sabe:"
 msgstr ""
 
-#: adventure.py:123
+#: adventure.py:124
 msgid ""
 "\n"
 "- Você de novo? Bom, já sabe:"
 msgstr ""
 
-#: adventure.py:126
+#: adventure.py:127
 #, python-brace-format
 msgid ""
 "- {store[0]}{store[1]}{store[2]} Tudo pode ser seu com um pouco de dinheiro!"
+msgstr ""
+
+#: adventure.py:128
+msgid "- Então, já se decidiu? "
+msgstr ""
+
+#: adventure.py:133 adventure.py:146 adventure.py:564
+msgid "barco"
+msgstr ""
+
+#: adventure.py:135
+msgid ""
+"\n"
+"- Mas você não tem nenhum dinheiro! Some daqui!"
+msgstr ""
+
+#: adventure.py:141
+msgid ""
+"\n"
+"- Pois bem aqui está seu barco, não me pergunte como você vai guardar isso.\n"
+msgstr ""
+
+#: adventure.py:144
+msgid ""
+"\n"
+"{ BARCO ADQUIRIDO }"
+msgstr ""
+
+#: adventure.py:150
+msgid ""
+"\n"
+"- Você por acaso vê algum outro barco aqui na loja? Não? Pois é..."
+msgstr ""
+
+#: adventure.py:152 adventure.py:165
+msgid "corda"
+msgstr ""
+
+#: adventure.py:154
+msgid ""
+"\n"
+"- Eu vou é te amarrar com a corda se você vier aqui sem dinheiro de novo!"
+msgstr ""
+
+#: adventure.py:160
+msgid ""
+"\n"
+"- Uma corda para outra corda... ou algo assim, não sei.\n"
+msgstr ""
+
+#: adventure.py:163
+msgid ""
+"\n"
+"{ CORDA ADQUIRIDA }"
+msgstr ""
+
+#: adventure.py:169
+msgid ""
+"\n"
+"- É você comprou a última corda, mas quem ficou num nó fui eu..."
+msgstr ""
+
+#: adventure.py:171 adventure.py:184 adventure.py:629 adventure.py:655
+msgid "vela"
+msgstr ""
+
+#: adventure.py:173
+msgid ""
+"\n"
+"- A chama queimou seu dinheiro? Não? Então volta com um!"
+msgstr ""
+
+#: adventure.py:179
+msgid ""
+"\n"
+"- Aqui está! Ela ilumina muito bem! Mas acho que você já sabe disso...\n"
+msgstr ""
+
+#: adventure.py:182
+msgid ""
+"\n"
+"{ VELA ADQUIRIDA }"
+msgstr ""
+
+#: adventure.py:188
+msgid ""
+"\n"
+"- Acha que vela dá em árvore? Se desse seria uma árvela. Mas não é..."
+msgstr ""
+
+#: adventure.py:191
+msgid ""
+"\n"
+"- Já vai embora? Pois bem, fique a vontade."
+msgstr ""
+
+#: adventure.py:194
+msgid ""
+"\n"
+"- Acho que não temos isso no estoque, meu bom. Por que você não procura lá "
+"fora?"
+msgstr ""
+
+#: adventure.py:200
+msgid ""
+"  ~ Há um rio perto da vila, você precisa de algo para desviar das piranhas."
+msgstr ""
+
+#: adventure.py:201
+msgid "  ~ A taverna é um bom lugar para conseguir dinheiro."
+msgstr ""
+
+#: adventure.py:202
+msgid "  ~ A floresta é perigosa no escuro."
+msgstr ""
+
+#: adventure.py:203
+msgid "  ~ Menos que {farm_potatoes + 25}, eu diria."
+msgstr ""
+
+#: adventure.py:204
+msgid "  ~ Mais que {farm_potatoes - 25}, se tivesse que chutar."
+msgstr ""
+
+#: adventure.py:205
+msgid "  ~ Há coisas muito poderosas nesse mundo."
+msgstr ""
+
+#: adventure.py:206
+msgid "  ~ Todo lugar tem algo importante."
+msgstr ""
+
+#: adventure.py:207
+#, python-brace-format
+msgid "  ~ {name} não é um nome comum aqui."
+msgstr ""
+
+#: adventure.py:208
+msgid "  ~ Dizem que alguém se perdeu na floresta e nunca mais voltou."
+msgstr ""
+
+#: adventure.py:209
+msgid ""
+"  ~ ...o fim nunca é o fim nunca é o fim nunca é o fim nunca é o fim nunca é "
+"o fim nunca é..."
+msgstr ""
+
+#: adventure.py:235
+msgid ""
+"\n"
+"> Você empurra a porta velha e revela uma sala escura com uma pessoa no "
+"centro."
+msgstr ""
+
+#: adventure.py:236
+msgid ""
+"\n"
+"- Hm seu rosto é novo por aqui... Qual seu nome?"
+msgstr ""
+
+#: adventure.py:240
+#, python-brace-format
+msgid ""
+"\n"
+"- É MENTIRA!!!! Eu sei tudo sobre você, {name}! Inclusive o que vai "
+"acontecer agora!"
+msgstr ""
+
+#: adventure.py:253
+msgid ""
+"\n"
+"- Bom eu já sabia disso, só queria checar sua honestidade."
+msgstr ""
+
+#: adventure.py:254
+msgid ""
+"- Aqui, pega um dinheiro como recompensa. Vai lá, pode pegar, você mereceu.\n"
+msgstr ""
+
+#: adventure.py:258
+msgid ""
+"\n"
+"- Se você veio aqui imagino que esteja procurando por direções..."
+msgstr ""
+
+#: adventure.py:259
+msgid ""
+"- Não posso dizer exatamente seu destino, mas posso lhe oferecer dicas:\n"
+msgstr ""
+
+#: adventure.py:262
+msgid ""
+"\n"
+"- Hugh, você de novo? Quer mais dicas ou quer que eu repita? Que seja:\n"
+msgstr ""
+
+#: adventure.py:269
+msgid ""
+"\n"
+"- Isso é tudo que tenho a dizer, e não tenho tanta paciência então maneire "
+"nas visitas."
+msgstr ""
+
+#: adventure.py:270
+msgid "> Ela te empurra para fora da casa e fecha a porta na sua cara."
+msgstr ""
+
+#: adventure.py:278
+msgid ""
+"\n"
+"> Você está prestes a sair quando ouve a porta runhir."
+msgstr ""
+
+#: adventure.py:279
+msgid ""
+"\n"
+"- Na verdade tem mais uma coisa... Tem a ver com essa sua batata cuja "
+"presença é difícil de não notar."
+msgstr ""
+
+#: adventure.py:280
+msgid ""
+"- Muitos vão cobiça-la, mas eu sei que você vai dá-la apenas para quem a "
+"merece, mesmo que esse seja um sujeito diferente..."
+msgstr ""
+
+#: adventure.py:281
+msgid ""
+"- Eu mesma sinto uma certa atração por tamanho vegetal... Mas consigo me "
+"conter... Eu acho..."
+msgstr ""
+
+#: adventure.py:282
+msgid ""
+"- Na verdade é melhor você sair logo daqui com ela, antes que eu perca a "
+"razão. Confie em mim, é para o bem de nós dois."
+msgstr ""
+
+#: adventure.py:283
+msgid ""
+"\n"
+"> Você sai da casa apreensivo quanto ao destino da batata e escuta a porta "
+"sendo trancada."
+msgstr ""
+
+#: adventure.py:288
+msgid ""
+"\n"
+"- Já falei que não quero você me visitando toda hora! Sai fora daqui de uma "
+"vez!"
+msgstr ""
+
+#: adventure.py:289
+msgid "> Você é empurrado para fora da casa e escuta a porta sendo trancada."
+msgstr ""
+
+#: adventure.py:293
+msgid ""
+"\n"
+"> É inútil, a porta está trancada"
+msgstr ""
+
+#: adventure.py:311
+msgid ""
+"\n"
+"> O barco te leva tranquilamente até a outra margem do extenso rio."
+msgstr ""
+
+#: adventure.py:312
+msgid ""
+"> Você atraca o barco num pilar de madeira convenientemente colocado e segue "
+"reto."
+msgstr ""
+
+#: adventure.py:316
+msgid ""
+"\n"
+"> No horizonte a frente, você avista uma extensa plantação com o que parece "
+"ser um homem parado no centro."
+msgstr ""
+
+#: adventure.py:317
+msgid "> Para qual direção você vai ir?"
+msgstr ""
+
+#: adventure.py:319
+msgid ""
+"\n"
+"] plantação | rio ["
+msgstr ""
+
+#: adventure.py:322 adventure.py:562
+msgid "rio"
+msgstr ""
+
+#: adventure.py:323
+msgid ""
+"\n"
+"> Você volta ao barco e retorna à outra margem."
+msgstr ""
+
+#: adventure.py:326
+msgid "plantação"
+msgstr ""
+
+#: adventure.py:333
+msgid ""
+"\n"
+"- Mas o que ocê veio fazer aqui de novo, uai? Cê me perdoa mas eu não vou te "
+"dar mais nenhuma batatinha não, viu!"
+msgstr ""
+
+#: adventure.py:334
+msgid "- Então pode ir dando a volta, uma já basta."
+msgstr ""
+
+#: adventure.py:335
+msgid "> Você dá meia volta e se afasta da plantação."
+msgstr ""
+
+#: adventure.py:338
+msgid ""
+"\n"
+"- Ok agora já chega! Ocê já tem uma batata, se tá vindo aqui toda hora de "
+"novo é porque quer roubar mais uma!"
+msgstr ""
+
+#: adventure.py:339
+msgid "- Pois eu não vou deixar não, uai!"
+msgstr ""
+
+#: adventure.py:354
+msgid ""
+"\n"
+"> Avançando um pouco mais, você consegue ver que se trata de uma enorme "
+"plantação de batatas."
+msgstr ""
+
+#: adventure.py:355
+msgid ""
+"> Em uma inspeção mais próxima, você vê que o misterioso homem é na verdade "
+"um grande espantalho."
+msgstr ""
+
+#: adventure.py:356
+msgid "> Ele parece se movimentar um pouco, talvez seja devido ao vento.\n"
+msgstr ""
+
+#: adventure.py:359
+msgid ""
+"\n"
+"> O espantalho continua balançando solitariamente no campo de batatas.\n"
+msgstr ""
+
+#: adventure.py:362
+msgid ""
+"\n"
+"> O espantalho vigia atentamente suas batatas a procura de pessoas como "
+"você.\n"
+msgstr ""
+
+#: adventure.py:367
+msgid "> A fragrância batatal te enche de determinação."
+msgstr ""
+
+#: adventure.py:368
+msgid "> Você pode tentar pegar uma batata ou ir embora. O que fazer?"
+msgstr ""
+
+#: adventure.py:370 adventure.py:376
+msgid ""
+"\n"
+"] pegar | voltar ["
+msgstr ""
+
+#: adventure.py:374
+msgid "- Oia sô, ocê voltou! Vai tenta pega minhas batata dinovo?"
+msgstr ""
+
+#: adventure.py:379 adventure.py:558 adventure.py:598 adventure.py:622
+#: adventure.py:672
+msgid "voltar"
+msgstr ""
+
+#: adventure.py:381
+msgid ""
+"\n"
+"> Enquanto volta, pelo canto do olho, você percebe o espantalho se movendo."
+msgstr ""
+
+#: adventure.py:385
+msgid ""
+"\n"
+"- Inté!"
+msgstr ""
+
+#: adventure.py:386
+msgid ""
+"> Você vai embora acenando para o espantalho enquanto se questiona como ele "
+"fala."
+msgstr ""
+
+#: adventure.py:389
+msgid "pegar"
+msgstr ""
+
+#: adventure.py:393
+msgid ""
+"\n"
+"> Você se prepara para puxar uma batata suculenta da terra."
+msgstr ""
+
+#: adventure.py:394
+msgid "> O espantalho se move."
+msgstr ""
+
+#: adventure.py:395
+msgid ""
+"\n"
+"- EI! EI! EI! Pode ir parando aí, sô! Tá pegando minhas batata porque?"
+msgstr ""
+
+#: adventure.py:396
+msgid ""
+"- Essas batatinhas são minhas e só minhas! Tira essas mãos di gente da "
+"cidade delas! Vai matar as coitada!"
+msgstr ""
+
+#: adventure.py:397
+msgid "- Nem adianta tenta pega elas, eu tô sempre de vigia, sô!\n"
+msgstr ""
+
+#: adventure.py:398
+msgid "- Mas intão, o que é que ocê faz aqui no meu batatal?"
+msgstr ""
+
+#: adventure.py:399
+msgid "- Quer uma batata, né? Elas são muito preciosa pra mim..."
+msgstr ""
+
+#: adventure.py:400
+msgid ""
+"- Mas eu acho que posso te dar uma, sô. Se ocê conseguir adivinhar quantas "
+"batata tem aqui na minha plantação todinha!"
+msgstr ""
+
+#: adventure.py:404
+msgid ""
+"\n"
+"- Oia, oia, sô, já falei pra não pegar a batata assim!"
+msgstr ""
+
+#: adventure.py:405
+msgid ""
+"- Eu sei que ocê quer muito conseguir uma, então é só ganhar no meu jogo, "
+"ora!"
+msgstr ""
+
+#: adventure.py:408
+msgid ""
+"\n"
+"- Na minha cara, sô? Tem vergonha não? Já te disse quié só ganhar meu jogo!"
+msgstr ""
+
+#: adventure.py:412
+msgid "- Iaí? Vai tentar?"
+msgstr ""
+
+#: adventure.py:418
+msgid ""
+"\n"
+"- Uai, então pode ir embora!"
+msgstr ""
+
+#: adventure.py:419
+msgid ""
+"> Você sai da plantação de batatas sendo desaprovadamente encarado pelo "
+"espantalho."
+msgstr ""
+
+#: adventure.py:423
+msgid ""
+"\n"
+"- Aí senti firmeza!"
+msgstr ""
+
+#: adventure.py:430
+msgid ""
+"\n"
+"- Seguinte, fi, ocê tem 6 chance pra adivinhar quantas batata tem aqui."
+msgstr ""
+
+#: adventure.py:431
+msgid ""
+"- Eu posso dá umas dica: tá entre 100 e 200 e eu vou avisando se ocê tá "
+"próximo!"
+msgstr ""
+
+#: adventure.py:432
+msgid "- Certinho? Então podemo começa!"
+msgstr ""
+
+#: adventure.py:442
+msgid ""
+"\n"
+"- Bom ocê já sabe como funciona, então bora logo de uma vez!"
+msgstr ""
+
+#: adventure.py:448
+msgid ""
+"\n"
+"- Uai, não conseguiu adivinhar? Mas se quiser dá pra tentar de novo outra "
+"vez, sô!"
+msgstr ""
+
+#: adventure.py:451
+msgid "> O espantalho olha sua direção com raiva."
+msgstr ""
+
+#: adventure.py:452
+msgid ""
+"\n"
+"- Caramba mas ocê já tentou 3 vezes e ainda não conseguiu? Ocê é ruim "
+"demais, uai!"
+msgstr ""
+
+#: adventure.py:453
+msgid "- Se quer tanto minhas batata, toma essa logo, sô!"
+msgstr ""
+
+#: adventure.py:461
+msgid "> Você sai da plantação cabisbaixo com a derrota."
+msgstr ""
+
+#: adventure.py:467
+msgid ""
+"\n"
+"- Sim ou não, uai!"
+msgstr ""
+
+#: adventure.py:489
+msgid ">>> Escolha um número: "
+msgstr ""
+
+#: adventure.py:492
+msgid ""
+"\n"
+"- Mais pra baixo!\n"
+msgstr ""
+
+#: adventure.py:495
+msgid ""
+"\n"
+"- Pode subi que é mais pra cima!\n"
+msgstr ""
+
+#: adventure.py:504
+msgid "batata"
+msgstr ""
+
+#: adventure.py:506
+msgid ""
+"\n"
+"- ISSO MERMO! Acertou na mosca, sô!"
+msgstr ""
+
+#: adventure.py:507
+msgid ""
+"- Tô impressionado! Acho que ocê merece uma batata minha finalmente...\n"
+msgstr ""
+
+#: adventure.py:510
+msgid ""
+"\n"
+"{ BATATA ADQUIRIDA }\n"
+msgstr ""
+
+#: adventure.py:512
+msgid ""
+"- Bom agora que ocê já tem essa belezura acho que já pode ir embora...\n"
+msgstr ""
+
+#: adventure.py:513
+msgid ""
+"> Com a saborosa batata guardada, você se despede do espantalho e sai da "
+"plantação."
+msgstr ""
+
+#: adventure.py:517
+msgid ""
+"\n"
+"- É pra escolher um número, sô!\n"
+msgstr ""
+
+#: adventure.py:532
+msgid ""
+"\n"
+"> Você acorda jogado no chão de terra, sem nenhuma lembrança do que lhe "
+"ocorreu."
+msgstr ""
+
+#: adventure.py:536
+msgid ""
+"\n"
+"> A sua frente há uma bifurcação no caminho, que vai para a direita ou "
+"esquerda. Atrás de você há uma grande e misteriosa floresta."
+msgstr ""
+
+#: adventure.py:537
+msgid "> Qual direção você pretende seguir?"
+msgstr ""
+
+#: adventure.py:539
+msgid ""
+"\n"
+"] direita | esquerda | voltar ["
+msgstr ""
+
+#: adventure.py:544
+msgid "direita"
+msgstr ""
+
+#: adventure.py:545
+msgid ""
+"\n"
+"> Seguindo essa direção você encontra um rio muito largo para pular por cima."
+msgstr ""
+
+#: adventure.py:548
+msgid ""
+"> Agora que você tem um barco, é possível ir em frente pelo rio em segurança."
+msgstr ""
+
+#: adventure.py:551
+msgid "> Você pode tentar ir em frente."
+msgstr ""
+
+#: adventure.py:553
+msgid "> Para onde é melhor ir?"
+msgstr ""
+
+#: adventure.py:555
+msgid ""
+"\n"
+"] rio | voltar ["
+msgstr ""
+
+#: adventure.py:559
+msgid ""
+"\n"
+"> Você se afasta do rio."
+msgstr ""
+
+#: adventure.py:573
+msgid ""
+"\n"
+"> Você tenta nadar pelo rio mas logo sente várias mordidas pelo corpo."
+msgstr ""
+
+#: adventure.py:588
+msgid ""
+"\n"
+"> Seguindo a esquerda você se depara com uma vilinha pitoresca."
+msgstr ""
+
+#: adventure.py:592
+msgid ""
+"\n"
+"> Há uma pequena loja à esquerda, uma casa suspeita em frente e à direita, "
+"uma taverna animada."
+msgstr ""
+
+#: adventure.py:593
+msgid "> Qual você pretende entrar?"
+msgstr ""
+
+#: adventure.py:595
+msgid ""
+"\n"
+"] esquerda | frente | direita | voltar ["
+msgstr ""
+
+#: adventure.py:601
+msgid "esquerda"
+msgstr ""
+
+#: adventure.py:609 adventure.py:629 adventure.py:655
+msgid "frente"
+msgstr ""
+
+#: adventure.py:623
+msgid ""
+"\n"
+"> Avançando para a floresta, o breu escurece sua vista. Você pode tentar "
+"desbravar em frente ou voltar para a segurança."
+msgstr ""
+
+#: adventure.py:624
+msgid "> Qual direção você vai tomar?"
+msgstr ""
+
+#: adventure.py:626
+msgid ""
+"\n"
+"] frente | voltar ["
+msgstr ""
+
+#: adventure.py:631
+msgid ""
+"\n"
+"> A escuridão te apavora e você pega sua batata para te confortar."
+msgstr ""
+
+#: adventure.py:632
+msgid "> Passos de algum ser ficam mais próximos."
+msgstr ""
+
+#: adventure.py:644
+msgid ""
+"\n"
+"> A escuridão te consome e você escuta passos vindo em sua direção."
+msgstr ""
+
+#: adventure.py:657
+msgid ""
+"\n"
+"> Avançando com a vela, você consegue iluminar uma parte da floresta."
+msgstr ""
+
+#: adventure.py:658
+msgid ""
+"> Um goblin aparentemente esfomeado aparece no seu campo de visão diminuto."
 msgstr ""
