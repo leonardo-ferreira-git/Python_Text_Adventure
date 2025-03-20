@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 22:34-0300\n"
+"POT-Creation-Date: 2025-03-19 20:59-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 msgid ""
 "\n"
 "] sim | não ["
-msgstr "\n] yes | no ["
+msgstr ""
 
 #: adventure.py:67
 msgid "sim"
@@ -150,6 +150,8 @@ msgid ""
 "\n"
 "] barco | vela | corda | sair ["
 msgstr ""
+"\n"
+"] boat | candle | rope | exit ["
 
 #: adventure.py:119
 msgid ""
@@ -158,8 +160,10 @@ msgid ""
 msgstr ""
 
 #: adventure.py:123
-msgid "\n- Você de novo? Bom, já sabe:"
-msgstr "\n -It's you again? Well, you know what to do:"
+msgid ""
+"\n"
+"- Você de novo? Bom, já sabe:"
+msgstr ""
 
 #: adventure.py:126
 #, python-brace-format
