@@ -8,6 +8,7 @@ appname = 'pythonAdventure'
 translate = gettext.translation(appname, localedir, fallback=True, languages=['en'])
 
 translate.install()
+_ = translate.gettext
 
 def main_menu():
     """Starting menu of the game where players can choose to start the game, go to options, credits or quit it.
